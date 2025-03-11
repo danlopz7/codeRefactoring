@@ -1,0 +1,15 @@
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\bin\Debug\net9.0\MyVehicleApp.exe
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\bin\Debug\net9.0\MyVehicleApp.deps.json
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\bin\Debug\net9.0\MyVehicleApp.runtimeconfig.json
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\bin\Debug\net9.0\MyVehicleApp.dll
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\bin\Debug\net9.0\MyVehicleApp.pdb
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\obj\Debug\net9.0\MyVehicleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\obj\Debug\net9.0\MyVehicleApp.AssemblyInfoInputs.cache
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\obj\Debug\net9.0\MyVehicleApp.AssemblyInfo.cs
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\obj\Debug\net9.0\MyVehicleApp.csproj.CoreCompileInputs.cache
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\obj\Debug\net9.0\MyVehicleApp.sourcelink.json
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\obj\Debug\net9.0\MyVehicleApp.dll
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\obj\Debug\net9.0\refint\MyVehicleApp.dll
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\obj\Debug\net9.0\MyVehicleApp.pdb
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\obj\Debug\net9.0\MyVehicleApp.genruntimeconfig.cache
+C:\Users\daen_\Desktop\RSM\MyVehicleApp\obj\Debug\net9.0\ref\MyVehicleApp.dll
