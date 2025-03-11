@@ -26,4 +26,4 @@ This project is a **Vehicle Rental System** designed to manage and rent vehicles
 4. **VehicleRentalSystem**: Manages a collection of vehicles and coordinates vehicle renting.
 
 ## Diagram:
-![Refactored code](out\refactoredCode\UML2\UML2.svg/UML2.svg)
+![Refactored code](out/refactoredCode/UML2/UML2.svg)
