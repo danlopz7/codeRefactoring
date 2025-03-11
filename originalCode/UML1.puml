@@ -1,0 +1,27 @@
+@startuml
+
+class Vehicle {
+    - Model: string
+    - Year: int
+    - Type: string
+    - FuelEfficiency: double
+    - ElectricRange: int
+
+    +SaveToDatabase(): void
+    +LogVehicleInfo(): void
+    +CalculateRentalCost(days: int): decimal
+    +GetVehicleInfo(): string
+    +GetEfficiency(): double
+}
+
+class VehicleRentalSystem {
+    - Vehicles: List<Vehicle>
+
+    +AddVehicle(vehicle: Vehicle): void
+    +RentVehicle(model: string, days: int): decimal
+    +PrintVehicleInfo(): void
+}
+
+VehicleRentalSystem --> "*" Vehicle
+
+@enduml

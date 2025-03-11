@@ -1,0 +1,45 @@
+@startuml
+
+interface IVehicleDatabase {
+    +SaveToDatabase(vehicle: Vehicle): void
+    +LogVehicleInfo(vehicle: Vehicle): void
+}
+
+interface IVehiclePricing {
+    +CalculateRentalCost(vehicle: Vehicle, days: int): decimal
+}
+
+class Vehicle {
+    - Model: string
+    - Year: int
+    - Type: string
+    - FuelEfficiency: double
+    - ElectricRange: int
+}
+
+class VehicleDatabaseService {
+    +SaveToDatabase(vehicle: Vehicle): void
+    +LogVehicleInfo(vehicle: Vehicle): void
+}
+
+class VehiclePricingService {
+    +CalculateRentalCost(vehicle: Vehicle, days: int): decimal
+}
+
+class VehicleRentalSystem {
+    - Vehicles: List<Vehicle>
+    - _vehicleDatabase: IVehicleDatabase
+    - _vehiclePricing: IVehiclePricing
+
+    +AddVehicle(vehicle: Vehicle): void
+    +RentVehicle(model: string, days: int): decimal
+    +PrintVehicleInfo(): void
+}
+
+VehicleRentalSystem --> IVehicleDatabase
+VehicleRentalSystem --> IVehiclePricing
+VehicleRentalSystem --> "*" Vehicle
+VehicleDatabaseService ..|> IVehicleDatabase
+VehiclePricingService ..|> IVehiclePricing
+
+@enduml
